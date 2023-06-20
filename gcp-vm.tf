@@ -1,5 +1,6 @@
 provider "google" {
  region = "us-west1"
+ project = "prj-mcafee-poc"
 }
 
 resource google_compute_instance "gcp-vm-tf-cloud" {
