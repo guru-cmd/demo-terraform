@@ -2,7 +2,7 @@ provider "google" {
  region = "us-west1"
 }
 
-resource goodle_compute_instance "gcp-vm-tf-cloud" {
+resource google_compute_instance "gcp-vm-tf-cloud" {
   name = "tf-cloud-exp"
   zone = "us-west1-a"
   tag = ["testing", "tf-cloud"]
